@@ -19,8 +19,8 @@ typedef struct s_rgb
 
 typedef struct  s_point
 {
-    int32_t x;
-    int32_t y;
+    double x;
+    double y;
 }   t_point;
 
 
@@ -31,5 +31,12 @@ typedef struct s_rect
     t_point tlc;
     t_rgb   col;
 }   t_rect;
+
+typedef struct s_line
+{
+    t_point start;
+    t_point end;
+    t_rgb   col;
+}   t_line;
 
 #endif

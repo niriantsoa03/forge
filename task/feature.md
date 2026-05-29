@@ -1,0 +1,1 @@
+- [ ] when drawing basic shape, support thicknesses  

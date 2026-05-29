@@ -21,7 +21,8 @@ add_subdirectory(external/SDL)
 
 # ---- library ----
 add_library(libforge
-    src/renderer.c
+    src/rdraw.c
+    src/window.c
 )
 
 target_include_directories(libforge
